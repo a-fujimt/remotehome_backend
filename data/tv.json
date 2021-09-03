@@ -1,0 +1,34 @@
+[
+    {
+        "id": "on_off",
+        "name" : "オン/オフ"
+    },
+    {
+        "id": "1ch",
+        "name" : "1ch"
+    },
+    {
+        "id": "2ch",
+        "name" : "2ch"
+    },
+    {
+        "id": "3ch",
+        "name" : "3ch"
+    },
+    {
+        "id": "4ch",
+        "name" : "4ch"
+    },
+    {
+        "id": "6ch",
+        "name" : "6ch"
+    },
+    {
+        "id": "8ch",
+        "name" : "8ch"
+    },
+    {
+        "id": "10ch",
+        "name" : "10ch"
+    }
+]

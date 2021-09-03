@@ -1,0 +1,22 @@
+[
+    {
+        "id": "on_off",
+        "name" : "点灯/常夜灯/OFF"
+    },
+    {
+        "id": "brightness_up",
+        "name" : "明るく"
+    },
+    {
+        "id": "brightness_down",
+        "name" : "暗く"
+    },
+    {
+        "id": "colortemp_up",
+        "name" : "暖色"
+    },
+    {
+        "id": "colortemp_down",
+        "name" : "白色"
+    }
+]
