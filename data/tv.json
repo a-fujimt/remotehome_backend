@@ -4,31 +4,31 @@
         "name" : "オン/オフ"
     },
     {
-        "id": "1ch",
+        "id": "ch_1",
         "name" : "1ch"
     },
     {
-        "id": "2ch",
+        "id": "ch_2",
         "name" : "2ch"
     },
     {
-        "id": "3ch",
+        "id": "ch_3",
         "name" : "3ch"
     },
     {
-        "id": "4ch",
+        "id": "ch_4",
         "name" : "4ch"
     },
     {
-        "id": "6ch",
+        "id": "ch_6",
         "name" : "6ch"
     },
     {
-        "id": "8ch",
+        "id": "ch_8",
         "name" : "8ch"
     },
     {
-        "id": "10ch",
+        "id": "ch_10",
         "name" : "10ch"
     }
 ]

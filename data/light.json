@@ -13,10 +13,10 @@
     },
     {
         "id": "colortemp_up",
-        "name" : "暖色"
+        "name" : "白色"
     },
     {
         "id": "colortemp_down",
-        "name" : "白色"
+        "name" : "暖色"
     }
 ]
