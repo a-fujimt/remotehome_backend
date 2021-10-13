@@ -1,4 +1,4 @@
-# Smarthome Backend
+# RemoteHome Backend
 
 ## What's this?
 家電の操作コマンドをWeb APIとして外部から叩けるようにしたもの
@@ -25,6 +25,44 @@ $ npm install
 }
 ```
 
+### データの追加
+
+1. プロジェクトルート直下に`data`を作成．
+2. `data`内に`targets.json`を以下のような内容で作成．
+   - `id`: ID
+   - `name`:家電の名前 
+
+```json
+[
+    {
+        "id": "light",
+        "name": "照明"
+    },
+    {
+        "id": "aircon",
+        "name": "エアコン"
+    },
+    ...
+]
+```
+
+3. 上で`id`として指定した名前と同じファイル名のjsonファイルに操作を記載する．
+   例：`light.json`
+
+ ```json
+[
+    {
+        "id": "on_off",
+        "name" : "点灯/OFF"
+    },
+    {
+        "id": "brightness_up",
+        "name" : "明るく"
+    },
+    ...
+]
+ ```
+
 ## API一覧
 
 | メソッド | パス              | 内容                              |
@@ -33,8 +71,3 @@ $ npm install
 | `GET`    | `/api/v1/$name`   | `$name`の操作一覧           |
 | `POST`   | `/api/v1/$name/$op` | `$op`を実行．bodyにpassphraseが必要 |
 
-## dataの追加
-
-`target.json`に家電を追加する．
-
-`id`として指定した名前と同じファイル名のjsonファイルに操作を記載する．
