@@ -1,0 +1,18 @@
+[
+    {
+        "id": "on_off",
+        "name": "オン・オフ"
+    },
+    {
+        "id": "ch1",
+        "name": "ch1"
+    },
+     {
+        "id": "ch2",
+        "name": "ch2"
+    },
+     {
+        "id": "volume_up",
+        "name": "音量+"
+    }
+]

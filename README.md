@@ -63,6 +63,8 @@ $ npm install
 ]
  ```
 
+`data_sample`以下にサンプルのjsonファイルを置いています．
+
 ## API一覧
 
 | メソッド | パス              | 内容                              |
