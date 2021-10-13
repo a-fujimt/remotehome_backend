@@ -20,7 +20,7 @@ $ npm install
 
 ```
 {
-    "pass": "12345",
+    "passphrase": "12345",
     "irDataDir": "$HOME/Documents"
 }
 ```
