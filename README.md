@@ -5,6 +5,8 @@
 
 [USB赤外線リモコンアドバンス](https://bit-trade-one.co.jp/product/module/adir01p/)の利用を想定
 
+iOS用GUIアプリケーションは[こちら](https://github.com/a-fujimt/RemoteHomeClient)
+
 ## Setup
 
 依存関係のインストール
@@ -23,6 +25,12 @@ $ npm install
     "passphrase": "12345",
     "irDataDir": "$HOME/Documents"
 }
+```
+
+実行 (3000番ポートを使用)
+
+```shell
+$ node index.js
 ```
 
 ### データの追加
